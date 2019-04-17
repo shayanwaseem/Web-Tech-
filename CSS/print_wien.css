@@ -1,0 +1,290 @@
+
+*{
+	box-sizing: border-box;
+}
+body 	{
+	font-family: times;
+
+}
+main
+{
+	margin: 0 40% 0 0;
+	padding: 1px 10px 20px 10px;
+	font-size: 12pt;
+	background-color: #FFFFFF;
+	color:#000000;
+}
+header	{
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+	font: Verdana, Arial, Serif;
+}
+
+h1	{
+	background-color: #000033;
+	background-image: url(banner.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-left: 20px;
+	height: 72 pixels;
+	color:#FFFFFF;
+	font: Georgia,times,Serif ;
+	line-height: 200%;
+	margin-bottom: 0;
+}
+
+nav	{
+	display:none;
+}
+
+
+h2	{
+	color: #3399CC;
+	font-family: Georgia, serif;
+}
+
+h3
+{
+	color:#000033;
+}
+dt 	{
+	font-weight: bold;
+	color: #000033;
+}
+
+.retreat 	{
+	color:#000033;
+	font-size: 1.2em;
+}
+#homehero
+{
+	height: 300px;
+	margin-left: 170px;
+	background-image: url(home.png);
+	background-size: 100% 100%;
+
+}
+#agendahero
+{
+	height: 300px;
+	margin-left: 170px;
+	background-image: url(agenda.jpg);
+	background-size: 100% 100%;
+}
+#speakershero
+{
+	height: 300px;
+	margin-left: 170px;
+	background-image: url(speakers.jpg);
+	background-size: 100% 100%;
+}
+#testimonialshero
+{
+	height: 300px;
+	margin-left: 170px;
+	background-image: url(testimonials.jpg);
+	background-size: 100% 100%;
+}
+#accomodationshero
+{
+	height: 300px;
+	margin-left: 170px;
+	background-image: url(accomadations.jpg);
+	background-size: 100% 100%;
+}
+#sponsorshero
+{
+	height: 300px;
+	margin-left: 170px;
+	background-image: url(sponsors.jpg);
+	background-size: 100% 100%;
+}
+footer 	{
+	background-color: #FFFFFF;
+	margin-left: 170px;
+	font-size: .70em;
+	font-style:italic;
+	text-align: center;
+	padding: 10px;
+}
+header,nav, main, footer{display: block;}
+#wrapper	{
+	background-color:  #90C7E3;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	min-width: 700px;
+	max-width: 1024px;
+	box-shadow: 3px 3px 3px #333;
+}
+
+
+#mobile {
+	display: none;
+}
+
+#desktop {
+	display: inline;
+}
+
+@media only screen and (max-width: 1024px) {
+
+	body {
+		margin: 0;
+		padding: 0;
+		background-image: none;
+	}
+
+	#wrapper {
+		width: auto;
+		min-width: 0;
+		margin: 0;
+		box-shadow: none;
+	}
+
+	h1 {
+		margin: 0;
+	}
+
+	nav {
+		float: none;
+		width: auto;
+		padding: 0.5em;
+	}
+
+	nav li {
+		display: inline-block;
+	}
+
+	nav a{
+		padding: 1em;
+	}
+
+	main {
+		padding: 1em;
+		margin-left: 0;
+		font-size: 90%;
+	}
+
+	footer{
+		margin: 0;
+	}
+
+	#homehero, #speakershero, #testimonialshero, #accomodationshero, #testimonialshero, #sponsorshero{
+		margin-left: 0;
+	}
+
+}
+
+
+@media only all and (max-width: 768px) {
+
+	h1 {
+		/*height: 100%;*/
+		font-size: 1.5em;
+		padding-left: 0.3em;
+	}
+
+	nav {
+		padding: 0;
+	}
+
+	nav a {
+		display: block;
+		padding: 0.2em;
+		font-size: 1.3em;
+		border-bottom: 1px;
+		border-color: #330000;
+	}
+
+	nav ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	nav li {
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+
+	main {
+		padding-top: 0.1em;
+		padding-right: 0.6em;
+		padding-bottom: 0.1em;
+		padding-left: 0.4em;
+	}
+
+#homehero, #speakershero, #testimonialshero, #accomodationshero, #testimonialshero, #sponsorshero {
+		display: none;
+	}
+
+	#mobile {
+		display: inline-block;
+	}
+
+	#desktop {
+		display: none;
+	}
+
+}
+
+
+
+
+table {
+	position: center;
+	border: 1px solid #3399cc;
+	width: 90%;
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: 5px;
+	border : 1px solid #3399cc;
+}
+
+td {
+	text-align: center;
+}
+
+.text {
+	text-align: left;
+}
+
+tr:nth-of-type(even) {
+	background-color: #F5FAFC;
+}
+
+
+
+
+label {
+	float: left;
+	display: block;
+	width: 8em;
+	padding-right: 1em;
+}
+
+input, textarea {
+	display: block;
+	margin-bottom: 1em;
+}
+
+#mySubmit {
+	margin-left: 10em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

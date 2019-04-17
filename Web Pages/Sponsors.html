@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="wien.css" rel="stylesheet" media="screen">
+		<link href="print_wien.css" rel="stylesheet" media="print">
+
+		<title>WIEN 2017</title>
+		<link href = "wien.css" rel = "stylesheet">
+		<meta charset="utf-8">
+	</head>
+	<script type="text/javascript">
+	alert("Page is loaded");
+	</script>
+	<div id= "wrapper">
+		<body>
+			<header>
+					<h1>WIEN 2017</h1>
+			</header>
+
+			<nav>
+				<ul>
+				<li>
+				<a href="index.html">Home</a>
+				</li>
+
+
+				<li>
+				<a href="Agenda.html">Agenda</a>
+				</li>
+
+				<li>
+				<a href="Accomodations.html">Accomodations</a>
+				</li>
+
+				<li>
+				<a href="Speakers.html">Speakers</a>
+				</li>
+
+				<li>
+				<a href="Testimonials.html">Testimonials</a>
+				</li>
+
+				<li>
+				<a href="Sponsors.html">Sponsors</a>
+				</li>
+
+				<li>
+				<a href="reservations.html">Reservations</a>
+				</li>
+
+				</ul>
+			</nav>
+			<div id= "sponsorshero">
+			</div>
+			<main>
+			<h2>
+				Sponsors
+			</h2>
+
+			<dl>
+				<h3> General Sponsors</h3>
+				<img src="sponsor1.jpg" height= "200" width= "300" alt="money">
+				<img src="sponsor2.jpg" height= "200" width= "300" alt="money2">
+				<img src="sponsor3.png" height= "200" width= "300" alt="money3">
+
+				<h3> Event Host</h3>
+				<img src="evenhost.jpg" height= "200" width= "300" alt="host">
+			</dl>
+			</main>
+			<footer>
+					Copyright © 2017 WIEN 2017<br>
+					<a href="">Peter@Sam.com</a>
+			</footer>
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+        <script>
+
+        $(window).on("beforeunload", function() {
+            return "Are you sure? You didn't finish the form!";
+        });
+
+        $(document).ready(function() {
+            $("#myForm").on("submit", function(e) {
+
+                $(window).off("beforeunload");
+                return true;
+            });
+        });
+        </script>
+
+
+
+		</body>
+	</div>
+</html>
